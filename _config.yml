@@ -1,15 +1,15 @@
 # "/" + 仓库的名字. 资源文件的路径组成部分
-baseurl: '/sidujinqu-web'
-baseurl_posts_img: '/sidujinqu-web/assets/images/post'
-baseurl_featured_img: '/sidujinqu-web/assets/images/hero/'
-baseurl_featured_thumbnail: '/sidujinqu-web/assets/images/thumbnail/'
-baseurl_javascripts: '/sidujinqu-web/assets/javascripts/'
+baseurl: '/BrayeryGirls'
+baseurl_posts_img: '/BrayeryGirls/assets/images/post'
+baseurl_featured_img: '/BraveryGirls/assets/images/hero/'
+baseurl_featured_thumbnail: '/BraveryGirls/assets/images/thumbnail/'
+baseurl_javascripts: '/BrayeryGirls/assets/javascripts/'
 
 # 网页的标题
-title: "Welcome to my world~"
+title: "learn to be a bravery girl, not perfection~"
 # 网站的主标题
-name: "Hi! have a good time~.✌.🤞."
-description: "这是我的小小太空舱💨这里将记录我的点点滴滴~"
+name: "Hi!~.✌.🤞."
+description: "💨Why do you want to learn to code？ Because I want to learn to be a brave girl~"
 
 url: site url
 icon: your site icon path # /assets/img/icon.png [best 300px X 300px]
