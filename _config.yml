@@ -1,0 +1,35 @@
+# "/" + 仓库的名字. 资源文件的路径组成部分
+baseurl: '/sidujinqu-web'
+baseurl_posts_img: '/sidujinqu-web/assets/images/post'
+baseurl_featured_img: '/sidujinqu-web/assets/images/hero/'
+baseurl_featured_thumbnail: '/sidujinqu-web/assets/images/thumbnail/'
+baseurl_javascripts: '/sidujinqu-web/assets/javascripts/'
+
+# 网页的标题
+title: "Welcome to my world~"
+# 网站的主标题
+name: "Hi! have a good time~.✌.🤞."
+description: "这是我的小小太空舱💨这里将记录我的点点滴滴~"
+
+url: site url
+icon: your site icon path # /assets/img/icon.png [best 300px X 300px]
+disqus: disqus_shortname # get it on https://disqus.com/admin/
+
+defaults:
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "default"
+
+# 其它配置, 可忽略, 无需修改
+permalink: /:title/
+
+markdown: kramdown
+
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+exclude: [ changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock ]
